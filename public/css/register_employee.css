@@ -1,0 +1,193 @@
+body{
+    background-image: url("../img/fondo2.jpg");
+    background-attachment: fixed;
+    font-family: Poppins;
+}
+
+.section-flex{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+
+}
+
+.form_containerEmployee{
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 100%);
+    width: 500px;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.form_containerEmployee::after{
+    justify-content: center;
+    position:absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #778E93;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100%;
+    filter: blur(10px);
+    z-index: -1;
+    border-radius: 30px;
+  }
+
+  .input-contenedor{
+    display: flex;
+    background-color: rgba(245, 245, 220, 0%) ;
+    border-radius: 0px;
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    margin-left: 5%;
+    width: 250px;
+    margin-top: 5%;
+    justify-content: left;
+    margin-right: 5%;
+    height: fit-content;
+
+}
+
+  .Title1{
+    color: #1E3C4B;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Poppins;
+  }
+
+  .TitleBoss{
+    margin:auto;
+    margin-top: 10px;
+  }
+
+  .boxtitle{
+    justify-content: right;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 140px;
+    height: fit-content;
+
+  }
+
+  a{
+    color: #1E3C4B;
+    font-family: Poppins;
+
+  }
+
+  h6{
+    font-weight: bold;
+    font-family: Poppins;
+    color: #1E3C4B;
+
+  }
+
+  nav{
+    text-align: right;
+    padding: 30px 50px;
+    margin: auto;
+  }
+
+  nav>a{
+      text-decoration: none;
+      margin-right: 10px;
+  }
+
+  nav>a:hover{
+    font-weight:bold ;
+    color: #1E3C4B;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .button-box{
+    margin-left: 38%;
+    width: 20px;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+#button{
+  justify-content: center;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+/*Company*/
+
+.form_containerCompany{
+  justify-content: center;
+  background-color: rgb(255, 255, 255, 100%);
+  width: 550px;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.form_containerCompany::after{
+  justify-content: center;
+  position:absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background: #778E93;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 475px;
+  height: 275px;
+  filter: blur(10px);
+  z-index: -1;
+  border-radius: 30px;
+}
+
+/** STYLE ALL-EMPLOYEE  */
+main
+{
+    width: 100%;
+}
+table
+{
+    width: 80%;
+    margin-top: -600px;
+    background-color: white;
+}
+
+ /*** updateEmployee -- form **/
+
+ .form_containerEmployeeUpdate{
+  justify-content: center;
+  background-color: rgb(255, 255, 255, 100%);
+  width: 475px;
+  height: 650px;
+  position: relative;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.form_containerEmployeeUpdate::after{
+  justify-content: center;
+  position:absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background: #778E93;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  height: 100%;
+  filter: blur(10px);
+  z-index: -1;
+  border-radius: 30px;
+}
+
